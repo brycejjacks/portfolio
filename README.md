@@ -1,3 +1,3 @@
 # portfolio
- Sneak Peak into my Dev Endevours
+ Sneak Peak into my Dev Endeavors
 # portfolio
