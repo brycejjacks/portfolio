@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <nav id='sideNavBar' className=''>
-        <div id='navLogo'><img src='/sprout-0.png' className="App-logo" alt="logo" /></div>
+        <div id='navLogo'><img src='sprout-0.png' className="App-logo" alt="logo" /></div>
         <ul className='d-flex flex-column justify-content-around'>
           <li><a href='#header'>Intro</a></li>
           <li><a href='#about'>About</a></li>
@@ -108,19 +108,19 @@ function App() {
         <div id='technologies' className='section'>
           <h1 className='sectionTitle'>Technologies</h1>
           <div className='d-flex flex-row flex-wrap justify-content-around'>
-            <img src="/assets/technologies/html.png" alt="html" className='technologyIcon'/>
-            <img src="/assets/technologies/css.png" alt="css" className='technologyIcon'/>
-            <img src="/assets/technologies/vanillajs.png" alt="javascript" className='technologyIcon'/>
-            <img src="/assets/technologies/typescript.png" alt="typescript" className='technologyIcon'/>
-            <img src="/assets/technologies/angular.svg" alt="angular" className='technologyIcon'/>
-            <img src="/assets/technologies/react.png" alt="react" className='technologyIcon'/>
-            <img src="/assets/technologies/bootstrap.png" alt="bootstrap" className='technologyIcon'/>
-            <img src="/assets/technologies/graphql.png" alt="graphql" className='technologyIcon'/>
-            <img src="/assets/technologies/nestjslogo.png" alt="nestjs" className='technologyIcon'/>
-            <img src="/assets/technologies/mongo.png" alt="mongodb" className='technologyIcon'/>
-            <img src="/assets/technologies/postgresql.png" alt="postgresql" className='technologyIcon'/>
-            <img src="/assets/technologies/python.png" alt="python" className='technologyIcon'/>
-            <img src="/assets/technologies/nodejslogo.png" alt="nodejs" className='technologyIcon'/>
+            <img src="assets/technologies/html.png" alt="html" className='technologyIcon'/>
+            <img src="assets/technologies/css.png" alt="css" className='technologyIcon'/>
+            <img src="assets/technologies/vanillajs.png" alt="javascript" className='technologyIcon'/>
+            <img src="assets/technologies/typescript.png" alt="typescript" className='technologyIcon'/>
+            <img src="assets/technologies/angular.svg" alt="angular" className='technologyIcon'/>
+            <img src="assets/technologies/react.png" alt="react" className='technologyIcon'/>
+            <img src="assets/technologies/bootstrap.png" alt="bootstrap" className='technologyIcon'/>
+            <img src="assets/technologies/graphql.png" alt="graphql" className='technologyIcon'/>
+            <img src="assets/technologies/nestjslogo.png" alt="nestjs" className='technologyIcon'/>
+            <img src="assets/technologies/mongo.png" alt="mongodb" className='technologyIcon'/>
+            <img src="assets/technologies/postgresql.png" alt="postgresql" className='technologyIcon'/>
+            <img src="assets/technologies/python.png" alt="python" className='technologyIcon'/>
+            <img src="assets/technologies/nodejslogo.png" alt="nodejs" className='technologyIcon'/>
           </div>
         </div>
         
@@ -129,12 +129,12 @@ function App() {
           <div className='container mt-5 h-75'>
             <div className='row'>
               <div className='col align-self-start'>
-              <img className="awardPhoto" src="/assets/business/NSBExSHG.jpeg" alt="NSBExSHG.jpeg"/>
+              <img className="awardPhoto" src="assets/business/NSBExSHG.jpeg" alt="NSBExSHG.jpeg"/>
                 <h5>NSBE x Sledgehammer Hackathon Winner</h5>
                 <strong>1st Place (2021)</strong>
               </div>
               <div className='col align-self-end'>
-                <img className="awardPhoto" src="/assets/business/beautifulBakersfieldGraphic.png" alt="Beautiful Bakersfield Award"/>
+                <img className="awardPhoto" src="assets/business/beautifulBakersfieldGraphic.png" alt="Beautiful Bakersfield Award"/>
                 <h5>Beautiful Bakersfield Award Winner</h5>
                 <strong>Young Adult (2019)</strong>
               </div>
@@ -144,8 +144,8 @@ function App() {
       
         <div id='contact' className='section'>
           <h1 className='sectionTitle'>Contact</h1>
-          <a rel='noreferrer' href='https://github.com/brycejjacks/'><img src="/assets/contact/github.png" alt='github' className='technologyIcon'/></a>
-          <a rel='noreferrer' href='https://www.linkedin.com/in/brycejjacks/'><img src="/assets/contact/linkedIn.png" alt='linkedIn' className='technologyIcon'/></a>
+          <a rel='noreferrer' href='https://github.com/brycejjacks/'><img src="assets/contact/github.png" alt='github' className='technologyIcon'/></a>
+          <a rel='noreferrer' href='https://www.linkedin.com/in/brycejjacks/'><img src="assets/contact/linkedIn.png" alt='linkedIn' className='technologyIcon'/></a>
         </div>
       </div>
     </div>
