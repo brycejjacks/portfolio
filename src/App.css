@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App nav li{
+  color: white;
+  /* font-style: none; */
+}
+
+.App #bodyWrapper {
+  margin-left: 20%;
+  padding-right: 5%;
+}
+
+#sideNavBar {
+  border-right: thin solid rgb(119, 119, 119);
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  min-width: 130px;
+}
+#sideNavBar #navLogo {
+height: 100px;
+padding-top: 8%;
+}
+#sideNavBar #navLogo img{
+  height: inherit;
+}
+#sideNavBar ul {
+  margin-top: 30%;
+  list-style: none;
+  text-align: left;
+  padding-left: 15%;
+  height: 40vh;
+}
+#sideNavBar ul li a {
+  text-decoration: none;
+  color: rgb(124, 157, 124);
+  font-weight: 500;
+}
+#sideNavBar ul li a:hover {
+  color: darkgreen;
+}
+.section {
+  min-height: 100vh;
+  padding: 5% 0;
+}
+.sectionTitle {
+  padding-top: 5%;
+}
+.headshot {
+  height: 20rem;
+  border-radius: 50%;
+}
+.technologyIcon {
+  height: 70px;
+  width: 70px;
+  border-radius: 10%;
+  margin: 6%;
+}
+.awardPhoto {
+  height: 70px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    /* transform: rotate(0deg); */
+    transform: rotateY(0deg);
+  }
+  to {
+    /* transform: rotate(360deg); */
+    transform: rotateY(300deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media only screen and (max-width: 650px) {
+  #bodyWrapper {
+    margin-left: 0 !important;
+    padding: 0 5%;
+  }
+  #sideNavBar {
+    display: none;
+  }
+}
