@@ -1,3 +1,5 @@
-# portfolio
- Sneak Peak into my Dev Endeavors
-# portfolio
+# Portfolio
+ Sneak Peak Into my Endeavors as a Dev
+ 
+ [LINK](https://brycejjacks.github.io/portfolio/)
+
