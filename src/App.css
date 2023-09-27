@@ -36,6 +36,7 @@
 
 #sideNavBar {
   border-right: thin solid rgb(119, 119, 119);
+  background-color: #1b1e24;
   width: 15%;
   height: 100vh;
   position: fixed;
@@ -75,6 +76,12 @@ padding-top: 8%;
 .headshot {
   height: 20rem;
   border-radius: 50%;
+}
+.card {
+  border:thin solid red ;
+  background-color: #1b1e24 !important;
+  padding: 2rem;
+  margin: 1%;
 }
 .technologyIcon {
   height: 70px;
